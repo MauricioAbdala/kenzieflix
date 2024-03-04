@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+
+body {
+     background-color: rgb(13, 14, 15);
+     font-family: 'roboto', sans-serif;
+}
+
+header {
+       height:300px ; 
+       text-align: center;
+       margin-top: 100px;
+       
+}
+
+#logo {
+       width: 350px;
+       height: 150px;             
+}
+h1 {
+    color:aliceblue
+
+}
+.container {
+           display:flex;      
+           justify-content: center;
+           text-align: center;
+           margin: none;  
+           height: 300px;
+           width: 100%; 
+                         
+}
+
+
+        
+        
+                                  
+       
+.image {
+       height: 200px;
+       width: 200px;
+       margin-top:20px ;
+       border-radius: 8px; 
+       opacity:70%;
+       
+        
+}
+.image:hover {
+             border: 3px solid white;
+             opacity: 100%;
+             
+}
+
+
+figure {
+       height: 250px;
+       width: 200px;
+       margin-top: 30px;
+       margin:10px ;
+       color:aliceblue;
+       border-radius: 8px;
+       opacity: 75%;
+       
+       
+       
+}
+figure:hover {
+             opacity: 100%;
+}
+
+.adicionar_perfil {
+        
+                  margin-top: 50px; 
+                  height: 53px;
+                  padding: 30px;   
+               
+}
+.perfil1 {
+         background-color: rgb(43, 43, 43);
+         height:200px ;
+         width: 200px;
+         margin: 30px;
+         margin-left: 10px;
+         
+}  
+.perfil1:hover {
+               
+               border: 2px solid aliceblue;
+}               
+
+.button {
+        text-align: center;
+       
+        
+       
+}
+.adicionar_perfil2 {
+           margin-top:38px;
+}
+
+input {
+      width: 200px;
+      height: 35px;
+      background-color: #1864AB;
+      color:aliceblue;
+      border: none;
+      border-radius: 10px;
+      margin-top: 10%;
+      opacity: 80%;
+}
+input:hover {
+          
+            background-color:blue;
+            color:white;
+            border:2px solid aliceblue;
+            opacity: 100%;
+}
